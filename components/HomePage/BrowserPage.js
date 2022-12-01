@@ -14,7 +14,7 @@ const BrowserPage = () => {
           width={100}
           className="h-40 w-40"
         /> */}
-        <video autoplay loop muted src="/Banner2.mp4" type="video/mp4" className="rounded-xl " />
+        <video autoPlay loop muted src="/Banner2.mp4" type="video/mp4" className="rounded-xl " />
         
       {/* <video autoPlay style={{ width: '500px', height: '500px' }}>
         <source src="/Banner2.mp4" />
