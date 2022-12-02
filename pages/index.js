@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import AccordionPage from '../components/HomePage/AccordionPage'
 import BannerPage from '../components/HomePage/BannerPage'
 import BoostPage from '../components/HomePage/BoostPage'
 import BrowserPage from '../components/HomePage/BrowserPage'
@@ -13,6 +14,8 @@ export default function Home() {
       <BrowserPage/>
       <CodePage/>
       <BoostPage/>
+      <AccordionPage/>
+      
 
     </div>
 

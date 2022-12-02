@@ -6,6 +6,7 @@ function MyApp({ Component, pageProps }) {
   <div className="font-inter bg-[#192645]"> 
     <NavbarPage />
     <Component {...pageProps} />
+    
   </div>
   )
 }
