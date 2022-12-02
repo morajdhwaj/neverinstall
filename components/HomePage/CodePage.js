@@ -2,8 +2,8 @@ import React from "react";
 
 const CodePage = () => {
   return (
-    <div className="mt-32 flex">
-      <div className="w-3/5   rounded-3xl bg-gray-600">
+    <div className="mt-52 flex">
+      <div className="w-3/5   rounded-3xl bg-blue-100 shadow-2xl shadow-blue-400">
         <div className="text-4xl font-bold pl-10 space-y-5 py-10">
           <h2 className="bg-gradient-to-r from-blue-300 to-pink-400 text-transparent bg-clip-text">Code fast,</h2>
           <h2 className="bg-gradient-to-r from-blue-300  text-transparent bg-clip-text">on-the-go.</h2>

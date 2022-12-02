@@ -6,7 +6,7 @@ const CollaborationPage = () => {
       <div className="text-center text-4xl font-bold space-y-5 bg-gradient-to-r from-green-300 to-blue-400 text-transparent bg-clip-text">
         <h2>Collaboration, like they are right here.</h2>
       </div>
-      <div className="rounded-xl mt-20 p-3 bg-gray-600">
+      <div className="rounded-xl mt-20 p-3 bg-gray-600  shadow-emerald-400">
         <video
           autoPlay
           loop

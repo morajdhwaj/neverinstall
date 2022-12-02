@@ -3,7 +3,7 @@ import React from "react";
 
 const NavbarPage = () => {
   return (
-    <div className="bg-[#192645]  flex w-full h-16  text-white text-xs">
+    <div className="bg-[#192645]  flex w-full h-16  text-white text-xs fixed left-0 right-0 top-0">
       <div className=" w-1/2  h-full flex ml-16 space-x-8 items-center text-xs">
         <Image
           src="/logo.svg"
