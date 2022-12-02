@@ -6,7 +6,7 @@ const ChangewayPage = () => {
     <div>
       {" "}
       <div className="flex mt-32  ">
-        <div className="w-1/2   space-y-10 pl-10">
+        <div className="w-1/2   space-y-6 pl-10">
           <div className="text-6xl font-bold space-y-5 bg-gradient-to-r from-yellow-500 to-pink-500 text-transparent bg-clip-text  ">
             <h2>Change the</h2>
             <h2>way you run</h2>
@@ -29,8 +29,8 @@ const ChangewayPage = () => {
           <Image
             src="/appsDark.png"
             alt=" "
-            height="100"
-            width="200"
+            height="50"
+            width="150"
             className=" h-full w-full"
           />
         </div>

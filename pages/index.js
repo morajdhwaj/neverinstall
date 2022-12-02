@@ -3,6 +3,7 @@ import Image from "next/image";
 import BannerPage from "../components/HomePage/BannerPage";
 import BoostPage from "../components/HomePage/BoostPage";
 import BrowserPage from "../components/HomePage/BrowserPage";
+import ChangewayPage from "../components/HomePage/ChangewayPage";
 import CodePage from "../components/HomePage/CodePage";
 import styles from "../styles/Home.module.css";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <BrowserPage />
       <CodePage />
       <BoostPage />
+      <ChangewayPage />
     </div>
   );
 }
