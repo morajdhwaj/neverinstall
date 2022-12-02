@@ -7,15 +7,18 @@ const BrowserPage = () => {
         <h2>Your browser is the new</h2>
         <h2> oprating system</h2>
       </div>
-      <div className="h-full w-full pl-20 rounded-xl">
-        <div className="rounded-xl">
-          <video
-            src="/Banner2.mp4"
-            autoPlay
-            style={{ width: "1000px", height: "800px" }}
-            className="rounded-xl"
-          ></video>
-        </div>
+      <div className="rounded-xl mt-20 p-3 bg-gray-600">
+        {/* <video
+          src="/Banner2.mp4"
+          height={100}
+          width={100}
+          className="h-40 w-40"
+        /> */}
+        <video autoPlay loop muted src="/Banner2.mp4" type="video/mp4" className="rounded-xl " />
+        
+      {/* <video autoPlay style={{ width: '500px', height: '500px' }}>
+        <source src="/Banner2.mp4" />
+      </video> */}
       </div>
     </div>
   );
