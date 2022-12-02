@@ -7,6 +7,8 @@ import ChangewayPage from "../components/HomePage/ChangewayPage";
 import CodePage from "../components/HomePage/CodePage";
 import styles from "../styles/Home.module.css";
 import AccordionPage from '../components/HomePage/AccordionPage'
+import CollaborationPage from "../components/HomePage/CollaborationPage";
+import Productivity from "../components/HomePage/Productivity";
 
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
       <BrowserPage />
       <CodePage />
       <BoostPage />
+      <CollaborationPage/>
+      <Productivity/>
       <ChangewayPage />
       <AccordionPage/>
       

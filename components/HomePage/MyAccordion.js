@@ -1,18 +1,15 @@
 import React, { useState } from "react";
 
 const MyAccordion = ({ id, question, answer }) => {
-  
-    const [show, setShow]= useState (false);
+  const [show, setShow] = useState(false);
 
-
-    return (
-    <div className="max-w-3xl m-auto">
+  return (
+    <div className="max-w-3xl m-auto text-gray-300">
       <div className="text-3xl font-bold flex space-x-5">
-        <button onClick={()=>setShow(!show)}>+</button>
         <h1>{question}</h1>
+        <button onClick={() => setShow(!show)}>{show ? "-" : "+"}</button>
       </div>
-      { show && <h2 className="">{answer}</h2>}
-      
+      {show && <h2 className="">{answer}</h2>}
     </div>
   );
 };

@@ -20,11 +20,13 @@ const BrowserPage = () => {
           muted
           src="/Banner2.mp4"
           type="video/mp4"
-          className="rounded-xl "
+          className="rounded-xl  "
+          height={1000}
+          width={1200}
         />
 
-        {/* <video autoPlay style={{ width: '500px', height: '500px' }}>
-        <source src="/Banner2.mp4" />
+        {/* <video autoPlay muted style={{ width: '1200px', height: '500px' }}>
+        <source className="rounded-l-xl" src="/Banner2.mp4" />
       </video> */}
       </div>
     </div>

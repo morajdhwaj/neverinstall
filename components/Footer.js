@@ -16,7 +16,7 @@ const Footer = () => {
           alt=""
           width="30"
           height="30"
-          className=" bg-white bg-clip-content  "
+          className=" bg-white bg-clip-content   "
         />
         <Image
           src="/discord.png"
