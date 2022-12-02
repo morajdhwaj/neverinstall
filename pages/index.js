@@ -6,6 +6,8 @@ import BrowserPage from "../components/HomePage/BrowserPage";
 import ChangewayPage from "../components/HomePage/ChangewayPage";
 import CodePage from "../components/HomePage/CodePage";
 import styles from "../styles/Home.module.css";
+import AccordionPage from '../components/HomePage/AccordionPage'
+
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <CodePage />
       <BoostPage />
       <ChangewayPage />
+      <AccordionPage/>
+      
     </div>
   );
 }
