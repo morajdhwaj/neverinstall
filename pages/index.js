@@ -13,16 +13,18 @@ import CreativePage from "../components/HomePage/CreativePage";
 
 export default function Home() {
   return (
-    <div className="max-w-6xl m-auto ">
+    <div>
       <BannerPage />
-      <BrowserPage />
-      <CodePage />
-      <BoostPage />
-      <CollaborationPage />
-      <Productivity />
-      <CreativePage />
-      <ChangewayPage />
-      <AccordionPage />
+      <div className="max-w-6xl m-auto ">
+        <BrowserPage />
+        <CodePage />
+        <BoostPage />
+        <CollaborationPage />
+        <Productivity />
+        <CreativePage />
+        <ChangewayPage />
+        <AccordionPage />
+      </div>
     </div>
   );
 }
