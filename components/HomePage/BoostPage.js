@@ -1,8 +1,9 @@
 import React from "react";
+// import bg from '../../public/banner1.png'
 
 const BoostPage = () => {
   return (
-    <div className="mt-52 flex">
+    <div className="mt-52 flex ">
       <div className="w-2/5 flex flex-col justify-end px-10 space-y-5 pl-20 pb-5 ">
         <div className="text-4xl font-bold ">
           <h2 className="bg-gradient-to-r from-emerald-400 to-pink-200 text-transparent bg-clip-text">
@@ -30,7 +31,13 @@ const BoostPage = () => {
           </h2>
         </div>
         <div className="  p-3 rounded-3xl">
-          <video autoPlay loop muted src="/browse.mp4 " className="rounded-3xl" />
+          <video
+            autoPlay
+            loop
+            muted
+            src="/browse.mp4 "
+            className="rounded-3xl"
+          />
         </div>
       </div>
     </div>
