@@ -19,10 +19,10 @@ const NavbarPage = () => {
       </div>
       <div className="w-1/2 flex items-center justify-end mr-20 space-x-8 font-medium">
         <div te>
-            <a>SIGN IN</a>
+          <a>SIGN IN</a>
         </div>
         <div className="border bg-white text-black flex items-center rounded-lg shadow-sm shadow-white ">
-            <button className=" px-12 space-x-1 py-3 ">SIGN UP FOR FREE</button>
+          <button className=" px-12 space-x-1 py-3 ">SIGN UP FOR FREE</button>
         </div>
       </div>
     </div>
