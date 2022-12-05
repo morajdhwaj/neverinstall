@@ -14,8 +14,8 @@ import CreativePage from "../components/HomePage/CreativePage";
 export default function Home() {
   return (
     <div>
-      <BannerPage />
       <div className="max-w-6xl m-auto ">
+        <BannerPage />
         <BrowserPage />
         <CodePage />
         <BoostPage />
