@@ -14,7 +14,7 @@ import TrialPage from "../components/HomePage/TrialPage";
 
 export default function Home() {
   return (
-    <div className="max-w-6xl m-auto ">
+    <div className="">
       <BannerPage />
       <BrowserPage />
       <CodePage />

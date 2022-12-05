@@ -3,7 +3,7 @@ import React from "react";
 
 const ChangewayPage = () => {
   return (
-    <div className="mt-52 flex">
+    <div className="mt-52 max-w-6xl m-auto flex">
       <div className="w-1/2 flex flex-col justify-end px-10 space-y-10  pt-10 pl-20 pb-5">
         <div className="text-5xl font-bold space-y-3 bg-gradient-to-r from-orange-400 to-red-500 text-transparent bg-clip-text">
         <h2 >
