@@ -4,7 +4,7 @@ import React from "react";
 const BannerPage = () => {
   return (
     <div
-      className="flex bg-cover"
+      className="flex bg-contain pt-12"
       style={{
         backgroundImage: `url(/heroimageBars.png)`,
       }}
