@@ -14,7 +14,7 @@ const CreativePage = () => {
         <div className="w-2/5 flex flex-col justify-end px-10 space-y-5 pl-20 pb-5">
           <div className="text-4xl font-bold ">
             <h2 className="bg-gradient-to-r from-[#2bc3f7] to-pink-200 text-transparent bg-clip-text">
-              Ctreativity on the go.
+              Creativity on the go.
             </h2>
           </div>
           <div className="text-xl font-medium text-slate-200 ">
@@ -49,7 +49,6 @@ const CreativePage = () => {
         </div>
       </div>
     </div>
-    
   );
 };
 
