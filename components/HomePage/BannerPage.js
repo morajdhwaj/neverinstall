@@ -4,7 +4,7 @@ import React from "react";
 const BannerPage = () => {
   return (
     <div
-      className="  py-48 h-full w-full bg-cover  "
+      className="  py-48 h-full w-full bg-contain  "
       style={{
         backgroundImage: `url(/bannerbg.png)`,
         // width: "100",
@@ -32,15 +32,13 @@ const BannerPage = () => {
             </button>
           </div>
         </div>
-        <div className="w-1/2  ">
-          
+        <div className="  ">
           <Image
             src="/banner1.png"
             alt=" "
             height="1000"
             width="1000"
-            
-            className=" h-full w-full"
+            className=" max-h-max max-w-max   "
             // layout="fill"
             // objectFit=""
           />
