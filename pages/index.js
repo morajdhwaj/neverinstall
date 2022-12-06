@@ -10,21 +10,21 @@ import AccordionPage from "../components/HomePage/AccordionPage";
 import CollaborationPage from "../components/HomePage/CollaborationPage";
 import Productivity from "../components/HomePage/Productivity";
 import CreativePage from "../components/HomePage/CreativePage";
+import TrialPage from "../components/HomePage/TrialPage";
 
 export default function Home() {
   return (
-    <div>
-      <div className="max-w-6xl m-auto ">
-        <BannerPage />
-        <BrowserPage />
-        <CodePage />
-        <BoostPage />
-        <CollaborationPage />
-        <Productivity />
-        <CreativePage />
-        <ChangewayPage />
-        <AccordionPage />
-      </div>
+    <div className="">
+      <BannerPage />
+      <BrowserPage />
+      <CodePage />
+      <BoostPage />
+      <CollaborationPage />
+      <Productivity />
+      <CreativePage />
+      <ChangewayPage />
+      <AccordionPage />
+      <TrialPage />
     </div>
   );
 }
