@@ -4,19 +4,19 @@ import React from "react";
 const BannerPage = () => {
   return (
     <div
-      className="  py-48 h-full w-full bg-contain  "
+      className="  py-48 h-full bg-contain  "
       style={{
         backgroundImage: `url(/bannerbg.png)`,
         // width: "100",
         // height: "100",
       }}
     >
-      <div className="flex max-w-6xl m-auto  ">
-        <div className="w-1/2   space-y-10 pl-10">
-          <div className="text-6xl font-bold space-y-5 bg-gradient-to-r from-yellow-500 to-pink-500 text-transparent bg-clip-text  ">
+      <div className="flex w-auto   ">
+        <div className="w-1/2   space-y-10 pl-44">
+          <div className="text-6xl font-bold space-y-5 bg-gradient-to-r from-yellow-500 to-pink-500 text-transparent bg-clip-text pb-4  ">
             <h2>Supercharge</h2>
             <h2>
-              your apps <span>⚡️</span>{" "}
+              your apps<span>⚡️</span>
             </h2>
           </div>
 
@@ -38,7 +38,7 @@ const BannerPage = () => {
             alt=" "
             height="1000"
             width="1000"
-            className=" max-h-max max-w-max   "
+            className=" max-h-max w-auto  "
             // layout="fill"
             // objectFit=""
           />
