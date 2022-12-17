@@ -10,6 +10,7 @@ import AccordionPage from "../components/HomePage/AccordionPage";
 import CollaborationPage from "../components/HomePage/CollaborationPage";
 import Productivity from "../components/HomePage/Productivity";
 import CreativePage from "../components/HomePage/CreativePage";
+import TrialPage from "../components/HomePage/TrialPage";
 
 export default function Home() {
   return (
