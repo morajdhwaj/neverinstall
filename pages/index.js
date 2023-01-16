@@ -15,7 +15,7 @@ import TrialPage from "../components/HomePage/TrialPage";
 export default function Home() {
   return (
     <div>
-      <div className="max-w-6xl m-auto ">
+      <div className=" ">
         <BannerPage />
         <BrowserPage />
         <CodePage />
@@ -24,6 +24,7 @@ export default function Home() {
         <Productivity />
         <CreativePage />
         <ChangewayPage />
+        <TrialPage />
         <AccordionPage />
       </div>
     </div>
