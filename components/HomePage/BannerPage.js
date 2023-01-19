@@ -31,7 +31,7 @@ const BannerPage = () => {
           </div>
           <div className="">
             <button className="bg-gradient-to-r rounded-2xl from-yellow-400 to-amber-500 py-3 px-16">
-              Get started for free
+              Get started for free.
             </button>
           </div>
         </div>
